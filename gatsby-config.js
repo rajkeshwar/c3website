@@ -4,6 +4,7 @@ const tailwindConfig = require("./tailwind.config.js");
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
+  pathPrefix: "/c3website",
   siteMetadata: {
     title: `CourseCube Leaning Center`,
     description: `Formarly known as Java Learning Center`,
