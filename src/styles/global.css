@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c3-container {
+  @apply flex-1 w-full max-w-6xl px-4 py-8 mx-auto md:px-8;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0.5rem;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0.5rem;
+}
+
+.star-rating--star-filled {
+  fill: #eb8a2f;
+}
+
+.star-rating--star-bordered {
+  stroke: #eb8a2f;
+}
+
+.show-more-content {
+  max-height: 221px;
+}
+
+.show-more-content.collapsed {
+  -webkit-mask-image: linear-gradient(#fff,#fff,rgba(255,255,255,0));
+  mask-image: linear-gradient(#fff,#fff,rgba(255,255,255,0));
+}
+
+.show-more-content.expanded {
+  overflow: visible;
+  max-height: none!important;
+}
