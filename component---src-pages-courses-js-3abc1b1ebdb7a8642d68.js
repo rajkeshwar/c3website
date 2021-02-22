@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{iwTS:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),i=t.n(a),l=t("Bl7J");n.default=function(){return i.a.createElement(l.a,null,i.a.createElement("h1",null,"This is course list page"))}}}]);
+//# sourceMappingURL=component---src-pages-courses-js-3abc1b1ebdb7a8642d68.js.map
