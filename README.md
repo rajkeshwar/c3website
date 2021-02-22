@@ -2,7 +2,9 @@
 
 # Get started
 
+```sh
 npm install
 npm run develop
 
 npm run build
+```
