@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-400 pt-4 mt-4">
           <div className="">
-            <Image style={{ height: '50px'}} src={`https://coursecube.com/jlc/1.0/images/CCLogo-White-1.png`} />
+            <Image style={{ height: '50px'}} src={`https://coursecube.com/jlc/1.1/images/CCLogo-White-1.png`} />
           </div>
           <p className="font-extralight text-xs">© 2020 CourseCube Private Limited. All Rights Reserved.</p>
         </div>

@@ -33,7 +33,7 @@ const MainNavbar = () => {
     <Navbar expand="lg" className="bg-green-700 navbar-dark" style={{ paddingTop: 0, paddingBottom: 0}}>
       <Navbar.Brand>
         <Link to="/">
-          <Image style={{ height: '60px'}} src={`https://coursecube.com/jlc/1.0/images/CCLogo-White-1.png`} />
+          <Image style={{ height: '60px'}} src={`https://coursecube.com/jlc/1.1/images/CCLogo-White-1.png`} />
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
