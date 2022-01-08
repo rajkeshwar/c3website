@@ -4,10 +4,10 @@ import Image from 'react-bootstrap/Image'
 import PropTypes from 'prop-types';
 
 const carouselImages = [
-  'https://coursecube.com/jlc/1.0/images/CC-Java-Img-Final.png', 
-  'https://coursecube.com/jlc/1.0/images/CC-MS-Img-Final.png', 
-  'https://coursecube.com/jlc/1.0/images/CC-Angular-Img-Final.png', 
-  'https://coursecube.com/jlc/1.0/images/CC-React-Img-Final.png'
+  'https://coursecube.com/jlc/1.1/images/DevOps-Final.png', 
+  'https://coursecube.com/jlc/1.1/images/BMS-Final.png', 
+  'https://coursecube.com/jlc/1.1/images/Angular-Final.png',
+  'https://coursecube.com/jlc/1.1/images/React-Final.png'
 ];
 
 const CarouselBanner = ({ images }) => {
@@ -24,7 +24,7 @@ const CarouselBanner = ({ images }) => {
         </Carousel.Item>
       ))}
     </Carousel>
-   );
+  );
 }
 
 CarouselBanner.propTypes = {
